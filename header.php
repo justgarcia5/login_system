@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, intial-scale=1">
   <title>Title of the document</title>
@@ -12,24 +13,24 @@
 <body>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <a class="navbar-brand">
       <img>
     </a>
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      <li class="nav-item"><a class="text-white nav-link" href="index.php">Home</a></li>
+      <li class="nav-item"><a class="text-white nav-link" href="#">Portfolio</a></li>
+      <li class="nav-item"><a class="text-white nav-link" href="#">About Me</a></li>
+      <li class="nav-item"><a class="text-white nav-link" href="#">Contact</a></li>
     </ul>
     <form class="form-inline my-2 my-lg-0" action="includes/login.inc.php" method="post" >
-      <input class="form-control mr-sm-2" type="text" name="mailuid" placeholder="Username/E-mail...">
-      <input class="form-control mr-sm-2" type="password" name="pwd" placeholder="Password...">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit" name="login-submit" >Login</button>
+      <input class="form-control input-sm mr-sm-2" type="text" name="mailuid" placeholder="Username/E-mail...">
+      <input class="form-control input-sm mr-sm-2" type="password" name="pwd" placeholder="Password...">
+      <button class="btn btn-default btn-secondary my-2 my-sm-0" type="submit" name="login-submit" >Login</button>
     </form>
     <a class="nav-link" href="signup.php">Signup</a>
     <form action="includes/logout.inc.php" method="post" >
-      <button class="btn btn-secondary my-2 my-sm-2" type="submit" name="logout-submit" >Logout</button>
+      <button class="btn btn-default btn-secondary my-2 my-sm-2" type="submit" name="logout-submit" >Logout</button>
     </form>
   </nav>
 </header>
