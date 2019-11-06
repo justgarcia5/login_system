@@ -15,10 +15,10 @@
             <input class="form-control" type="text" name="mail" placeholder="Email">
           </div>
           <div class="form-group">
-            <input class="form-control" type="text" name="pwd" placeholder="Password">
+            <input class="form-control" type="password" name="pwd" placeholder="Password">
           </div>
           <div class="form-group">
-            <input class="form-control" type="text" name="pwd-repeat" placeholder="Repeat password">
+            <input class="form-control" type="password" name="pwd-repeat" placeholder="Repeat password">
           </div>
           <button class="btn btn-success" type""submit" name="signup-submit">Signup</button>
         </form>
