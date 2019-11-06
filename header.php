@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, intial-scale=1">
   <title>Title of the document</title>
@@ -25,11 +26,11 @@
     <form class="form-inline my-2 my-lg-0" action="includes/login.inc.php" method="post" >
       <input class="form-control mr-sm-2" type="text" name="mailuid" placeholder="Username/E-mail...">
       <input class="form-control mr-sm-2" type="password" name="pwd" placeholder="Password...">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit" name="login-submit" >Login</button>
+      <button class="btn btn-secondary btn-sm my-2 my-sm-0" type="submit" name="login-submit" >Login</button>
     </form>
     <a class="nav-link" href="signup.php">Signup</a>
     <form action="includes/logout.inc.php" method="post" >
-      <button class="btn btn-secondary my-2 my-sm-2" type="submit" name="logout-submit" >Logout</button>
+      <button class="btn btn-secondary btn-sm my-2 my-sm-2" type="submit" name="logout-submit" >Logout</button>
     </form>
   </nav>
 </header>
