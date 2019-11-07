@@ -20,7 +20,7 @@
           <div class="form-group">
             <input class="form-control" type="password" name="pwd-repeat" placeholder="Repeat password">
           </div>
-          <button class="btn btn-success" type""submit" name="signup-submit">Signup</button>
+          <button class="btn btn-success" type="submit" name="signup-submit">Signup</button>
         </form>
       </section>
     </div>
