@@ -26,7 +26,7 @@ if (isset($_POST['signup-submit'])) {
     exit();
   }
   else if ($password !== $passwordRepeat) {
-    header("Location: ../signup.php?error=passwordcheckuid=".$username."&mail=".$email);
+    header("Location: ../signup.php?error=passwordcheck&uid=".$username."&mail=".$email);
     exit();
   }
   else {
@@ -61,15 +61,11 @@ if (isset($_POST['signup-submit'])) {
         }
       }
     }
-
   }
-
   mysqli_stmt_close($stmt);
   mysqli_close($conn);
-
 }
-
 else {
   header("Location: ../signup.php");
-          exit();
+  exit();
 }
