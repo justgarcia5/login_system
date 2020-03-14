@@ -37,10 +37,10 @@
       }
       else {
         echo '<form class="form-inline my-2 my-lg-0" action="includes/login.inc.php" method="post" >
-        <input class="form-control mr-sm-2" type="text" name="mailuid" placeholder="Username/E-mail...">
-        <input class="form-control mr-sm-2" type="password" name="pwd" placeholder="Password...">
-        <button class="btn btn-sm btn-secondary my-2 my-sm-0" type="submit" name="login-submit" >Login</button>
-        </form><a class="text-white nav-link" href="signup.php">Signup</a>';
+        <input class="form-control mr-sm-2 mb-2 mt-2" type="text" name="mailuid" placeholder="Username/E-mail...">
+        <input class="form-control mr-sm-2 mb-2 mt-2" type="password" name="pwd" placeholder="Password...">
+        <button class="btn btn-sm btn-secondary my-2 my-sm-0" type="submit" name="login-submit" >Login</button><a class="text-white nav-link" href="signup.php">Signup</a>
+        </form>';
       }
     ?>
   </nav>
