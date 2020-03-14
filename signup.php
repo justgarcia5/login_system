@@ -76,8 +76,7 @@
             <input class="form-control" type="password" name="pwd-repeat" placeholder="Re enter password">
           </div>
         </div>
-        <hr width="300">
-        <button class="btn btn-success" type="submit" name="signup-submit"><i class="fa fa-user-plus"></i> Sign up</button>
+        <button class="btn btn-success mt-4" type="submit" name="signup-submit"><i class="fa fa-user-plus"></i> Sign up</button>
       </form>
       <br>
     </section>
